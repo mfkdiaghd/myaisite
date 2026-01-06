@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   plugins: [react()],
   define: {
-    // 关键配置：将系统环境变量 API_KEY 映射到代码中，解决部署后的 API 访问问题
+    // 关键配置：将系统环境变量 API_KEY 映射到代码中
     'process.env.API_KEY': JSON.stringify(process.env.API_KEY || '')
   },
   build: {
