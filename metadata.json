@@ -1,0 +1,7 @@
+{
+  "name": "Gemini AI Multi-Mode Chat",
+  "description": "A sophisticated AI companion supporting real-time text and voice interaction powered by Gemini 3 and Gemini 2.5 Live API.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
